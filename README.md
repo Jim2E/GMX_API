@@ -10,3 +10,5 @@ The vault uses the price from the keeper if it is within a configured percentage
 
 It's still not exactly clear what consensus is on the latency of the updates but eyeball comparing to the freely-available 1m data on TradingView, the candles are not 100% off. There is definetly inaccuracies, obvious from the plateaus on the 1s plot. The error is due to the pricing update latency on GMX's API. It is also due to the way I defined Open and closes for each candle. I am not sure what is the rule behind open/close price times on TradingView because it seems arbitrary IMO, but this is an important question I need to resolve because during times of volatility, this can make or break a strategy. I will improve this to improve my understanding of price oracles but someone can definetly use this as a starting point to work with some of the data GMX has to offer.
 
+NOTE: The plots are referring to BTC/USD on 10/06/2022 around the time shown on the x-axis.
+
