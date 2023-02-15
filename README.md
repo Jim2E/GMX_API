@@ -1,4 +1,4 @@
-# GMX_Candlestick_Plot
+# GMX API For Getting Pair Data
 
 The point of this project was to grab data from GMX - a decentralized service - in real-time and get a candlestick chart that can plotted by any period-rate. This can be used in guessing/testing/guiding any low/high frequency trading strategy. Of course at lower time-frames, the price API is certainly more questionable. Is there a realiable way to get <= 1m data for [eth,btc,uni,link,usdc,frax]? If so, how much can we reduce latency in price updates? I use the GMX API to fetch prices. According to their site: https://gmx-io.notion.site/gmx-io/GMX-Technical-Overview-47fc5ed832e243afb9e97e8a4a036353:
 "The [PriceFeed](https://github.com/gmx-io/gmx-contracts/blob/master/contracts/oracle/FastPriceFeed.sol) contract accepts submissions from the price feed keeper. This keeper calculates prices using the median price of Binance, FTX and Bitfinex. There are two types of keepers:
